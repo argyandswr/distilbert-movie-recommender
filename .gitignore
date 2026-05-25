@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+/.venv
+
+# 1. Ignore Virtual Environments & Package Managers
+.venv/
+__pycache__/
+*.pyc
+.python-version
+
+# 2. Ignore Data Assets (Sangat Berat, Jangan Di-push!)
+datasets/
+*.csv
+*.xlsx
+*.pkl
+mlb_binarizer.pkl
+
+# 3. Ignore Heavy Compressed Archives & Binary Models
+*.zip
+*.tar.gz
+*.rar
+models.zip
+models/
+results/
+logs/
+
+# 4. Ignore MLflow Tracking Metrics Data
+mlruns/
+
+# 5. Ignore Miscellaneous Notebook States & IDE Artifacts
+.ipynb_checkpoints/
+.vscode/
+=1.1.0
